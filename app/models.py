@@ -12,7 +12,7 @@ class Properties(db.Model):
     description = db.Column(db.String(350))
     num_of_bedrooms = db.Column(db.Integer)
     num_of_bathrooms=db.Column(db.Integer)
-    price = db.Column(db.Float)
+    price = db.Column(db.Integer)
     ptype = db.Column(db.String(10))
     location= db.Column(db.String(50))
     photo = db.Column(db.String(250))
